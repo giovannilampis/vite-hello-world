@@ -8,5 +8,13 @@
 
 <script>
 
+    export default{
+        name: "AppTitle",
+        data() {
+            return {
+                
+            }
+        },
+    }
 
 </script>
