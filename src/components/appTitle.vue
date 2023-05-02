@@ -1,7 +1,7 @@
 <template>
     
     <h1>
-
+        Ciao Mondo
     </h1>
 
 </template>
@@ -12,9 +12,11 @@
         name: "AppTitle",
         data() {
             return {
-                
+                message: "La mia prima app con Vite!"
+
             }
         },
+       
     }
 
 </script>
