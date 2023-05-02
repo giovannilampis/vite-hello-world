@@ -1,5 +1,13 @@
 <script>
-
+import AppTitle from './components/appTitle.vue';
+export default {
+  data() {
+    return {
+      count: 0
+    }
+  },
+  components:{AppTitle}
+}
 </script>
 
 <template>
@@ -11,6 +19,8 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  ciao
+  <AppTitle></AppTitle>
   <HelloWorld msg="Vite ++ Vue" />
 </template>
 
