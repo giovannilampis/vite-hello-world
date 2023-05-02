@@ -1,8 +1,12 @@
 <template>
     
     <h1>
-        Ciao Mondo
+        Buona giornata 🤩
     </h1>
+
+    <h2>
+        {{ message }}
+    </h2>
 
 </template>
 
@@ -20,3 +24,11 @@
     }
 
 </script>
+
+<style scoped>
+
+    h2{
+        color: gold;
+    }
+
+</style>
